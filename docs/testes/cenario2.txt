@@ -1,0 +1,5 @@
+CENÁRIO 2 — Saída válida parcial
+Dados usados: produto ID 1 com saldo 10; operador solicita saída 4.
+Saída observada: saída gravada com quantidade 4, usuário ID 2 e data/hora; saldo final 6.
+Conclusão: APROVADO. A saída válida atualizou o estoque e manteve rastreabilidade.
+Teste: test_cenario2_registra_saida_menor_ou_igual_ao_saldo.

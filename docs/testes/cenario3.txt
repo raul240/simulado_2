@@ -1,0 +1,5 @@
+CENÁRIO 3 — Saída igual ao saldo disponível
+Dados usados: produto ID 1 com saldo 10; operador solicita saída 10.
+Saída observada: saída gravada; saldo final 0.
+Conclusão: APROVADO. O sistema permite consumir todo o saldo, sem gerar saldo negativo.
+Teste: test_cenario3_saida_igual_ao_saldo_deixa_zero.

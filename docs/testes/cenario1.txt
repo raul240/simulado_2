@@ -1,0 +1,5 @@
+CENÁRIO 1 — Saída acima do saldo disponível
+Dados usados: produto ID 1 com saldo 10; operador solicita saída 11.
+Saída observada: ValueError com mensagem de estoque insuficiente; saldo final 10; 0 saídas gravadas.
+Conclusão: APROVADO. A saída indevida foi bloqueada e o saldo não mudou.
+Teste: test_cenario1_bloqueia_saida_maior_que_saldo.
